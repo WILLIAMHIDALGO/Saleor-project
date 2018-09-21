@@ -24,6 +24,9 @@ jobs:
             docker build \
               --build-arg STATIC_URL=$STATIC_URL \
               -t mirumee/saleor:latest .
+              
+      - store_artifacts:
+          path: /app/artifacts
 
 
 
