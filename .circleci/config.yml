@@ -26,7 +26,7 @@ jobs:
               -t mirumee/saleor:latest .
               
       - store_artifacts:
-          path: /app/artifacts
+          path: /app/mirumee
 
 
 
